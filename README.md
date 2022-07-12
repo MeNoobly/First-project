@@ -1,2 +1,2 @@
 # project
-My new description
+This is my first project with Git
