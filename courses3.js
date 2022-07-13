@@ -37,7 +37,6 @@
 // };
 
 // console.dir(Number);
-<<<<<<< HEAD
 
 // const arr = [1, 2, 4];
 // console.log(arr.length);
@@ -60,8 +59,7 @@
 // console.log(Math.round(num)); // Округление до ближайшего целого
 // console.log(parseInt(test)); // Перевод в СС, целого числа из строки
 // console.log(parseFloat(test)); // Перевод в СС, дробного числа из строки
-=======
->>>>>>> e5f992bbb99d7ea09c3ac1d378b6623f0c82175b
+
 
 // const arr = [1, 2, 4];
 // console.log(arr.length);
