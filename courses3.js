@@ -59,3 +59,4 @@
 // console.log(Math.round(num)); // Округление до ближайшего целого
 // console.log(parseInt(test)); // Перевод в СС, целого числа из строки
 // console.log(parseFloat(test)); // Перевод в СС, дробного числа из строки
+
