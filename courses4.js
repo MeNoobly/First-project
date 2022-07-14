@@ -114,3 +114,100 @@
 // function compareNum(a, b) { // Сравнение чисел
 //     return a - b;
 // }
+
+// let a = 5,
+//     b = a;
+
+// b = b + 5;
+
+// console.log(b);
+// console.log(10);
+
+// const obj = {
+//     a: 5,
+//     b: 1
+// };
+
+// const copy = obj; //Ссылка на объект obj
+
+// copy.a = 10; // Модифицируем также объект obj
+
+// console.log(copy);
+// console.log(obj);
+
+// function copy (mainObj) { // Поверхностная копия объектов
+//     let objCopy = {};
+
+//     for (let key in mainObj) {
+//         objCopy[key] = mainObj[key];
+//     }
+
+//     return objCopy;
+// }
+
+// const numbers = {
+//     a: 2,
+//     b: 5,
+//     c: {
+//         x: 7,
+//         y: 4
+//     }
+// };
+
+// const newNumbers = copy(numbers); // Создание копии объекта numbers
+
+// newNumbers.a = 10;
+// newNumbers.c.x = 10; // Поменялось в обоих местах
+
+// console.log(numbers);
+// console.log(newNumbers);
+
+// const add = {
+//     d: 17,
+//     e: 20
+// };
+
+// console.log(Object.assign(numbers, add)); // Поверхностная копия
+
+// const clone = Object.assign({}, add);
+
+// clone.d = 20;
+
+// console.log(add);
+// console.log(clone);
+
+// const oldArray = ["a", "b", "c"];
+// // const newArray = oldArray; // Ссылка на oldArray
+// const newArray = oldArray.slice(); // Копирование массива (поыерхностное)
+
+// newArray[1] = "12121212";
+
+// console.log(oldArray);
+// console.log(newArray);
+
+// const video = ["youtube", "vimeo", "rutube"],
+//       blogs = ["wordpress", "livejournal", "blogger"],
+//       internet = [...video, ...blogs, "vk", "facebook"]; // Разворачиваем данные с помощью ... (оператора разворота)
+
+// console.log(internet);
+
+// function log (a, b, c) {
+//     console.log(a);
+//     console.log(b);
+//     console.log(c);
+// }
+
+// const num = [2, 5, 7];
+
+// log(...num); // Разворачиваем и передаем массив num
+
+// const array = ["a", "b"];
+
+// const newArray = [...array];
+
+// const q = {
+//     one: 1,
+//     two: 2
+// };
+
+// const newObj = {...q};

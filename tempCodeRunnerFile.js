@@ -1,4 +1,1 @@
-arr.pop();
-// arr.push(10);
-
-// console.log(arr);
+console.log(Object.assign(numbers, add)); // Поверхностная копия
