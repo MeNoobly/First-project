@@ -1,1 +1,1 @@
-console.log(logg.substring(6, 11)); // slice без отрицательных значений
+            // counter++;
