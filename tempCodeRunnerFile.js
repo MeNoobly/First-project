@@ -1,1 +1,2 @@
-console.log(Object.assign(numbers, add)); // Поверхностная копия
+console.log(John.armor);
+John.sayHello();
