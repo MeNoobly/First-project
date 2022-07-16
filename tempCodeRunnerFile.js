@@ -1,2 +1,2 @@
-console.log(John.armor);
-John.sayHello();
+
+// console.log(typeof(String(null))); // Устаревший способ
