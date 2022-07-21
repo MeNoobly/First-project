@@ -1,1 +1,16 @@
-﻿
+﻿.title {
+    color: white;
+    background-color: black;
+}
+
+.blue {
+    color: blue;
+}
+
+.black {
+    color: black;
+}
+
+strong {
+    color: red !important; /* Используется в редких случаях */
+} 
