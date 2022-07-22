@@ -1,9 +1,82 @@
-﻿.title {
-    color: white;
-    background-color: black;
+﻿/* html {
+    font-size: 16px;
 }
 
-.blue {
+p {
+     font-size: 1.5rem;  font-size всего html документа
+    font-size: 1.5em; font-size родительского элемента
+} */
+
+body {
+    font-family: Arial; /* Стиль текста для всего текста*/
+    font-size: 14px; /* Размер текста на сайте */
+    line-height: 1.6; /* Высота строки, (1.34 обозначает font-size умноженный на 1.34*/
+}
+
+strong {
+    font-weight: bold; /* жирный текст */
+}
+
+em {
+    font-style: italic; /* курсивный текст */
+}
+
+blockquote {
+    text-align: center; /* выравнивание по левому и правому краю и по центру */
+    text-transform: uppercase; /* Форматирование заглавных и обычных букв */
+}
+
+a { 
+    text-decoration: none; /* все ссылки без подчеркивания */
+}
+
+p {
+    text-indent: 30px; /* Отступ параграфа */
+    white-space: nowrap; /* Текст не переносится на следующую строку */
+    word-spacing: unset; /* Промежуток между словами (unset - значение по умолчанию)*/
+    letter-spacing: 1px; /* Промежуток между символами */
+    opacity: 0.5; /* Прозрачность элемента */
+}
+.title { 
+    font-size: 50px;
+    color: rgba(0, 255, 255, 0.7); /*Последний аргумент обозначает прозрачность*/
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    text-shadow: 0 3px 3px black; /* Тень для надписей *сдвиг по x* *сдвиг по y* *радиус размытия* *цвет тени* */
+}  
+.backgroundImage {
+    background-image: url(img/me.jpg); /* Добавление картинки на задний фон */
+    /* background-size: 100px Размер картинки на заднем плане */
+    background-size: contain; /* Картинка должна полностью вписываться в блок */
+    background-repeat: no-repeat; /* Картинка не повторяется */
+    background-position: center, center; /* Позиционирование заднего фона *по горизонтали* *по вертикали**/
+} 
+
+/* img {
+    visibility: hidden Скрытие картинки без возможности выделения
+    opacity: 0; Скрытие картинки с возможностью выделения
+} */
+
+/* .parent { 
+    background-color: red;
+}
+
+.child {
+    background-color: blue;
+}
+
+.parent,
+.child {
+    width: 50%;
+    width: 50vh; 50 процентов от высоты
+    width: 50vw; 50 процентов от ширины 
+} */
+
+
+
+
+/* .blue {
     color: blue;
 }
 
@@ -12,5 +85,5 @@
 }
 
 strong {
-    color: red !important; /* Используется в редких случаях */
-} 
+    color: red !important; Используется в редких случаях 
+}*/
